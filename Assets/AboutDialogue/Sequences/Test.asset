@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5cfec96d6ece04aa4e6627325781bc, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueSystem.DialogueSequence
+  sequenceId: 1
+  lines:
+  - speaker: {fileID: 11400000, guid: 8f27dff4074bfec4494bcda5aa925528, type: 2}
+    expression: 
+    side: 0
+    text: Speak
+    typingSpeed: 0
+    autoAdvanceDelay: 0
+  - speaker: {fileID: 11400000, guid: 814e7567843490b42bfc9fa8f6e542e5, type: 2}
+    expression: 
+    side: 0
+    text: Right
+    typingSpeed: 0
+    autoAdvanceDelay: 0
+  - speaker: {fileID: 11400000, guid: 8f27dff4074bfec4494bcda5aa925528, type: 2}
+    expression: 
+    side: 1
+    text: Please talk it again
+    typingSpeed: 0
+    autoAdvanceDelay: 0
+  - speaker: {fileID: 11400000, guid: 814e7567843490b42bfc9fa8f6e542e5, type: 2}
+    expression: 
+    side: 1
+    text: Fine
+    typingSpeed: 0
+    autoAdvanceDelay: 0
